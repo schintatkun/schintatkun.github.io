@@ -1,0 +1,22 @@
+{
+  "name": "schintatkun.github.io",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schintatkun/schintatkun.github.io.git"
+  },
+  "author": "Shane Chintatkun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schintatkun/schintatkun.github.io/issues"
+  },
+  "homepage": "https://github.com/schintatkun/schintatkun.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
