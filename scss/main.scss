@@ -5,12 +5,13 @@
 }
 
 body {
-    @include background();
+    @include background;
     // background: $primary-color;
     color: #fff;
     height: 100%;
     margin: 0;
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
 }
 
 // Heading
