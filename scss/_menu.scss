@@ -84,7 +84,7 @@
         transform: translate3d(0,100%,0);
         @include easeOut;
         &.show{
-            //slide in from buttom
+            //slide in from bottom
             transform: translate3d(0,0,0);
         }
         .portrait {
@@ -119,6 +119,10 @@
         color: #fff;
         text-decoration: none;
         @include easeOut;
+
+        &:hover {
+            color: $secondary-color;
+        }
     }
     
     //Need to delay each nav item slide in by 0.1s
